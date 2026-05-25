@@ -30,7 +30,7 @@
 <body>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: May 21, 2026</p>
+  <p class="updated">Last updated: May 25, 2026</p>
 
   <div class="section">
     <h2>Overview</h2>
@@ -44,7 +44,8 @@
       <li>Your prayer sessions and generated prayers</li>
       <li>Mood and spiritual well-being ratings</li>
       <li>Your prayer streak and statistics</li>
-      <li>Profile information you enter during onboarding (age group, denomination, goals, etc.)</li>
+      <li>Prayer needs — titles, descriptions, and answered prayer stories you write</li>
+      <li>Profile information you enter during onboarding (name, age group, gender, denomination, spiritual goals, obstacles to faith, and personal struggles)</li>
       <li>App settings and preferences</li>
     </ul>
     <p>If you delete the app, all of this data is permanently deleted from your device.</p>
@@ -56,8 +57,10 @@
     <ul>
       <li>Your current mood rating (a number from 1–6)</li>
       <li>Your current relationship-with-God rating (a number from 1–6)</li>
-      <li>Anonymised profile context (age group, denomination, goals — no name or contact details)</li>
+      <li>Anonymised profile context: age group, gender, denomination, prayer frequency, spiritual goals, faith vision, obstacles to faith, and personal struggles (which may include sensitive categories such as anxiety, depression, loneliness, or addiction — selected by you during onboarding)</li>
+      <li>Language preference (English or Spanish)</li>
     </ul>
+    <p><strong>Your name is never included</strong> in these requests. No account or contact information is transmitted.</p>
     <p>This request is routed through our Cloudflare Workers proxy, which forwards it to <strong>DeepSeek AI</strong> to generate the prayer text. Neither our proxy nor DeepSeek stores this data after the request is complete.</p>
     <p>DeepSeek's privacy policy: <a href="https://www.deepseek.com/privacy" target="_blank">deepseek.com/privacy</a></p>
   </div>
@@ -66,25 +69,31 @@
     <h2>Third-party services</h2>
     <ul>
       <li><strong>Cloudflare Workers</strong> — routes AI requests. Processes data in transit only. <a href="https://www.cloudflare.com/privacypolicy/" target="_blank">Privacy policy</a></li>
-      <li><strong>DeepSeek AI</strong> — generates prayer text. <a href="https://www.deepseek.com/privacy" target="_blank">Privacy policy</a></li>
-      <li><strong>Sentry</strong> — crash reporting. If the app crashes, an anonymous error report (no personal data) may be sent. <a href="https://sentry.io/privacy/" target="_blank">Privacy policy</a></li>
+      <li><strong>DeepSeek AI</strong> — generates prayer text based on your anonymised profile and mood. <a href="https://www.deepseek.com/privacy" target="_blank">Privacy policy</a></li>
+      <li><strong>Sentry</strong> — crash and error reporting. If the app encounters an error during a prayer session, an anonymous error report may be sent. This report may include your mood and relationship-with-God scores at the time of the error, but never your name, contact details, or prayer content. <a href="https://sentry.io/privacy/" target="_blank">Privacy policy</a></li>
     </ul>
   </div>
 
   <div class="section">
     <h2>Data we do NOT collect</h2>
     <ul>
-      <li>We do not collect your name, email, or any contact information</li>
+      <li>We do not collect your name, email, or any contact information on our servers</li>
       <li>We do not track your location</li>
       <li>We do not use advertising or analytics SDKs</li>
-      <li>We do not sell or share your data with third parties</li>
+      <li>We do not sell your data</li>
       <li>We do not require account registration</li>
     </ul>
+    <p>Data shared with DeepSeek AI is used solely to generate your prayer and is not retained by us or sold to any party.</p>
   </div>
 
   <div class="section">
     <h2>Push notifications</h2>
-    <p>The app may send local push notifications to remind you to pray. These are scheduled entirely on your device — no data leaves your device for this feature. You can disable notifications at any time in your device's Settings.</p>
+    <p>The app may send local push notifications to remind you to pray or pray for your saved prayer needs. These are scheduled entirely on your device — no data leaves your device for this feature. You can disable notifications at any time in your device's Settings.</p>
+  </div>
+
+  <div class="section">
+    <h2>Sensitive personal information</h2>
+    <p>During onboarding you may select personal struggles from a predefined list (e.g. anxiety, depression, loneliness, addiction). These selections are stored locally on your device and, if provided, are sent anonymously to DeepSeek AI as part of prayer generation to make prayers more relevant to your situation. This information is never linked to your identity and is not retained after the prayer is generated.</p>
   </div>
 
   <div class="section">
